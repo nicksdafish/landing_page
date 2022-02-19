@@ -12,7 +12,7 @@
 <body>
     <div class="top_block">
         <header>
-            <H3 class="header_logo">Header Logo</H3>
+            <p class="hero">Header Logo</p>
             <ul class="header_links">
                 <li><a href=""> Header Link One</a></li>
                 <li><a href=""> Header Link Two</a></li>
@@ -21,14 +21,14 @@
         </header>
         <div class="top_content">
             <div class="top_content_left">
-                <h1>This website is awesome</h1>
-                <h5>Lorem ipsum dolor sit </h5>
+                <h1 class="hero">This website is awesome</h1>
+                <p class="secondary_hero">Lorem ipsum dolor sit </p>
                 <button>Sign Up</button>
             </div>
-          
+            <div class="image_container">
                 <img class="image" src="./Images/pexels-tolga-ahmetler-9684633.jpg"
                     alt="This is a placeholder for an image">
-           
+            </div>
         </div>
     </div>
 
@@ -39,31 +39,39 @@
         <div class="images">
             <div>
                 <img class="info_image" src="./Images/pexels-arkhod-11055830.jpg" alt="placeholder">
-                <p>lorem ipsum</p>
+                <p class="image_detail">lorem ipsum</p>
             </div>
             <div>
                 <img class="info_image" src="./Images/pexels-gabriela-veronika-11041568.jpg" alt="placeholder">
-                <p>lorem ipsum</p>
+                <p class="image_detail">lorem ipsum</p>
             </div>
             <div>
                 <img class="info_image" src="./Images/pexels-lisa-fotios-10914648.jpg" alt="placeholder">
-                <p>lorem ipsum</p>
+                <p class="image_detail">lorem ipsum</p>
             </div>
             <div>
                 <img class="info_image" src="./Images/pexels-louis-tran-11210402.jpg" alt="placeholder">
-                <p>lorem ipsum</p>
+                <p class="image_detail">lorem ipsum</p>
             </div>
         </div>
 
     </div>
     <div class="testimonial">
-        <h3>testimonial placeholder</h3>
-        <p>-person who the testimonial is from</p>
+        <div class="testimonial_container">
+            <p id="testimonial">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, aspernatur? Nobis
+                voluptatem magni saepe numquam et? Neque voluptates quisquam, ea corporis sit a rem aut quas dolores
+                blanditiis quia expedita?</p>
+            <p id="testimonial_credit">-person who the testimonial is from</p>
+        </div>
     </div>
-    <div class="sign_up">
-        <h3>Call to action! it's time!</h3>
-        <p>sign up for our product</p>
-        <button class="white_border_button">Sign Up</button>
+    <div class="sign_up_container">
+        <div class="sign_up">
+            <div>
+                <p class="sign_up_header">Call to action! it's time!</p>
+                <p class="secondary_hero">sign up for our product</p>
+            </div>
+            <button class="white_border_button">Sign Up</button>
+        </div>
     </div>
     <footer>
         <p>Project by Nicholas Fisher for The Odin Project</p>
